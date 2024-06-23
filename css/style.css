@@ -1,0 +1,44 @@
+body{
+    font-family: Times New Roman;
+    font-style: normal;
+}
+
+/* *******************Counter Program************************* */
+div{
+    border-style: double;
+    border-color: rgb(233, 48, 51);
+    padding: 10px;
+}
+h1{
+    text-align: center;
+    font-size: 10em;
+    font-style: oblique;
+    color: aquamarine;
+}
+#countLabel{
+    display: block;
+    text-align: center;
+    font-size: 10em;
+
+}
+
+#btnContainer{
+    text-align: center;
+}
+
+.buttons{
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+.buttons:hover{
+    background-color: rgb(0, 225, 246);
+}
+
+
+
